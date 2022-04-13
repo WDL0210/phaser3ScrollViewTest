@@ -1,0 +1,31 @@
+遮罩(Mask)的使用方法:
+參考教學網址:
+https://rexrainbow.github.io/phaser3-rex-notes/docs/site/mask/
+
+分為兩種方法:
+1.使用既有的圖片(Image)當作遮罩
+先生成一張圖片資料
+var maskImage = this.scene(自定義的Scene).add.image(0, 0, 圖片KEY(String));
+將圖片顯示關閉(隱藏圖片)
+maskImage.setVisible(false);
+把圖片做成Mask
+var mask = maskImage.createBitmapMask();
+將需要被遮蓋的物件加入至Mask中，這邊的對象物件使用Image類型
+maskTarget.setMask(mask);
+
+2.利用繪製圖形(Graphics)製作遮罩
+生成一個繪製圖形
+var shape = this.make.graphics();
+依據需求建立圖形的範圍大小(自訂)，沒有設定就連屁都看不見
+shape.fillRect(50, 50, 375, 200);
+把圖形做成Mask
+var mask = shape.createGeometryMask();
+將需要被遮蓋的物件加入至Mask中，這邊的對象物件使用Image類型
+maskTarget.setMask(mask);
+
+紀錄:
+1.還有將對象物件關閉受Mask影響的功能，可以在教學網址中查到
+是說竟然要自行設定誰會被Mask給吃掉(遮蓋)，合理但好累(Unity太方便了)
+2.Mask能應用的範圍十分廣泛，像是基本的道具欄位就非常需要它，不然選單的物品會超出顯示範圍。
+後續還得多做些研究如Mask能否被移動之類的以及可能做出的工具來負責生產Mask?
+擁有利用圖片及繪製圖形製作兩種方法，使用String當作Key，每次被取出時會先檢查是否存在再提交出去。

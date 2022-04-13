@@ -1,0 +1,398 @@
+{
+	"textures": [
+		{
+			"image": "TestSpritePcak.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 256,
+				"h": 336
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "icon_vit_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 10,
+						"w": 60,
+						"h": 51
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 60,
+						"h": 51
+					}
+				},
+				{
+					"filename": "icon_luk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 58,
+						"h": 55
+					},
+					"frame": {
+						"x": 63,
+						"y": 1,
+						"w": 58,
+						"h": 55
+					}
+				},
+				{
+					"filename": "icon_agi_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 123,
+						"y": 1,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "icon_atk_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 181,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "icon_back_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 58,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_ear_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 65,
+						"y": 59,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_eye_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 129,
+						"y": 61,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_hair_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 193,
+						"y": 61,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_headwear_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 122,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_nose_mouth_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 65,
+						"y": 123,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_tail_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 129,
+						"y": 125,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_tattoos_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 193,
+						"y": 125,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "icon_coin_mfb_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 69
+					},
+					"frame": {
+						"x": 1,
+						"y": 187,
+						"w": 71,
+						"h": 69
+					}
+				},
+				{
+					"filename": "icon_coin_gold_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 74,
+						"y": 189,
+						"w": 72,
+						"h": 72
+					}
+				},
+				{
+					"filename": "icon_rank_a_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 148,
+						"y": 189,
+						"w": 72,
+						"h": 72
+					}
+				},
+				{
+					"filename": "icon_rank_b_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 1,
+						"y": 263,
+						"w": 72,
+						"h": 72
+					}
+				},
+				{
+					"filename": "icon_rank_c_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 75,
+						"y": 263,
+						"w": 72,
+						"h": 72
+					}
+				},
+				{
+					"filename": "icon_rank_s_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 72
+					},
+					"frame": {
+						"x": 149,
+						"y": 263,
+						"w": 72,
+						"h": 72
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a7e6983bb96a440f70a41b04d3a6d48b:2a9ef10d44f54b776b69d2ba596b3f15:1a3b582f665dd4309602d914a98b7927$"
+	}
+}
